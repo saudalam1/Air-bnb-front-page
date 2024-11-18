@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+.logo {
+    color: #FF385C;
+    margin: 0px 0px 0px 24px;
+}
+
+body {
+    padding: 0px;
+    margin: 13px 0px 0px 0px;
+}
+
+.profilepic {
+    color: #6A6A6A;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    width: 105px;
+    border-color: #a2a0a0;
+    height: 34px;
+    margin: 0px 35px 0px 0px;
+}
+
+.profilepic:hover {
+    box-shadow: 0px 0px 7px#FF385C;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-family: sans-serif;
+    
+}
+
+
+.li1:hover{
+    background-color: #FF385C;
+    border: 1px solid #F7F7F7;
+    padding: 8px 15px;
+    border-radius: 30px;
+}
+
+
+.li2:hover{
+    background-color:#FF385C;
+    border: 1px solid #F7F7F7;
+    padding: 8px 15px;
+    border-radius: 30px;
+}
+
+.parent-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+   
+}
+
+
+
+.container2{
+    border: 1px solid #F7F7F7F7;
+    margin: 30px 0px 0px 400px;
+    height: 60px;
+    width: 800px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px #FF385C;
+    display: block;
+}
+
+.search-icon{
+    margin: -30px 0px 0px 750px;
+    
+}
